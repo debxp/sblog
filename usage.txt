@@ -1,0 +1,48 @@
+1. Para criar um "blog" no Simplenote, é preciso criar e publicar uma nota
+   que servira de índice dos artigos contendo a seguite estrutura:
+   
+   # Nome do Blog
+   
+   * Título do artigo #1
+   * Autor
+   * Data (no formato de apresentação)
+   * ID da nota publicada (é o código de letras e números no fim da URL)
+   * Resumo do artigo
+   - - -
+   * Título do artigo #2
+   * Autor
+   * Data (no formato de apresentação)
+   * ID da nota publicada
+   * Resumo do artigo
+   - - - 
+
+Importante!
+Cada artigo descrito deve terminar com a marcação "- - -"
+
+Observação: o ID do índice do blog deve ser informado na linha abaixo
+do script do Sblog (seção SETTINGS).
+
+$simple_blog_id      = 'Simplenote note id';
+
+
+2. Estrutura das pastas (sugerida):
+
+raiz do site/blog
+       |
+       +--- index.php
+       |
+       +--- favicon.png
+       |
+       +--- sb
+             |
+             +--- sblog.php
+             |
+             +--- themes
+                    |
+                    +--- default
+                    |      |
+                    |      +--- styles.css
+                    |      |
+                    |      +--- img (imagens do tema)
+                    |
+              (outros temas)
