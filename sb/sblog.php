@@ -4,8 +4,8 @@
 
 $simple_blog_title   = 'Sblog';
 $simple_blog_tagline = 'some great blog tagline!';
-$simple_blog_url     = 'http://localhost/blau/sblog/'; 
-$simple_blog_id      = 'znld8z';
+$simple_blog_url     = 'http://'; 
+$simple_blog_id      = 'Your Simplenote note id used as blog index';
 $simple_blog_theme   = 'default';
 $simple_blog_favicon = 'favicon.png';
 $simple_blog_lang    = 'pt-br';
