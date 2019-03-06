@@ -6,5 +6,5 @@ O Sblog é um pequeno script experimental em PHP para transformar notas publicad
 
 ## Atenção!
 
-> O Sblog é totalmente dependente da disponibilidade das notas compartilhadas do Simplenote. Caso o serviço seja descontinuado ou sofra alterações, todo o blog deixará de funcionar.
+O Sblog é totalmente dependente da disponibilidade das notas compartilhadas do Simplenote. Caso o serviço seja descontinuado ou sofra alterações, todo o blog deixará de funcionar.
 
